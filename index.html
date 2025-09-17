@@ -4,23 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SkinAura Menu</title>
+
+  <!-- Elegant serif font -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
+
   <style>
     body {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      margin: 0;
       background-color: #f8f5f0; /* soft cream background */
+      margin: 0;
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      padding: 20px;
+      color: #5a4a3a; /* muted warm brown, close to spa menu text */
     }
-    img {
-      width: 100vw;        /* full viewport width */
-      height: 100vh;       /* full viewport height */
-      object-fit: contain; /* scale to fit, keep aspect ratio */
+
+    header {
+      margin-bottom: 30px;
+    }
+
+    header img.logo {
+      width: 140px;      /* adjust size if needed */
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    h1 {
+      font-size: 3em;
+      font-weight: 600;
+      margin: 0 0 10px;
+      color: #b28c60;    /* warm gold-beige tone similar to luxury print */
+      letter-spacing: 1px;
+    }
+
+    p.tagline {
+      font-size: 1.4em;
+      font-weight: 400;
+      margin: 0 0 40px;
+      color: #6e5c4b;    /* soft earthy brown */
+      line-height: 1.6;
+    }
+
+    .menu-card img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
     }
   </style>
 </head>
 <body>
-  <img src="https://image2url.com/images/1758129604994-8a2ccee3-9318-4aa6-bf5b-dae9d3894f23.jpg" alt="SkinAura Services Menu">
+<!--   <header>
+    <img src="logo.png" alt="SkinAura Logo" class="logo">
+    <h1>SkinAura</h1>
+    <p class="tagline">Glow inside and out with SkinAura’s expert beauty and skincare services.</p>
+  </header> -->
+
+  <section class="menu-card">
+    <img src="https://image2url.com/images/1758129604994-8a2ccee3-9318-4aa6-bf5b-dae9d3894f23.jpg" alt="SkinAura Services Menu">
+  </section>
 </body>
 </html>
